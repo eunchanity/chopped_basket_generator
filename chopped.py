@@ -212,12 +212,13 @@ elif meals[choice] == "Dessert":
         st.write("")
 
 # sidebar
-st.sidebar.title("Info & References")
+st.sidebar.title("About This App")
 st.sidebar.markdown(
     "This app took inspiration from the TV series 'Chopped'. The generator creates a basket of four random ingredients based on the selected food groups.  \n"
     "  \n"
     "For each basket, there is also a **similar ingredient recommender**, which suggests the three most-similar foods per basket ingredient."
 )
+st.sidebar.markdown("---")
 st.sidebar.subheader("Technical Details")
 st.sidebar.markdown(
     "**Word2vec** was selected for the word embeddings and a **gensim model** was trained using [Google's](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) publicly available pre-trained word embeddings."
