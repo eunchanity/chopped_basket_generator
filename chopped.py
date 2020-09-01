@@ -24,6 +24,13 @@ des_sugar_snacks = pickle.load(open("pickle/des5.p", "rb"))
 # read in pickled cosine similarity matrix
 cos_similarity = pickle.load(open("pickle/cos_similarity.p", "rb"))
 
+# streamlit beta styling
+st.beta_set_page_config(
+    page_title="Chopped Basket Generator",
+    page_icon=":hocho:",
+    layout="centered",
+    initial_sidebar_state="collapsed",
+)
 # streamlit outline
 st.title('"Chopped" Basket Generator')
 st.markdown("---")
