@@ -203,3 +203,8 @@ elif meals[choice] == "Dessert":
 
     else:
         st.write("")
+
+st.text("")
+st.text("Created by David Weon")
+st.markdown("https://github.com/eunchanity/chopped_basket_generator")
+
