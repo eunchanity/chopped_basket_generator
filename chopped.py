@@ -204,7 +204,27 @@ elif meals[choice] == "Dessert":
     else:
         st.write("")
 
-st.text("")
-st.text("Created by David Weon")
-st.markdown("https://github.com/eunchanity/chopped_basket_generator")
+# sidebar
+st.sidebar.title("Info & References")
+st.sidebar.markdown(
+    "This app took inspiration from the TV series 'Chopped'. The generator creates a basket of four random ingredients based on the selected food groups.  \n"
+    "  \n"
+    "For each basket, there is also a **similar ingredient recommender**, which suggests the three most-similar foods per basket ingredient."
+)
+st.sidebar.subheader("Technical Details")
+st.sidebar.markdown(
+    "**Word2vec** was selected for the word embeddings and a **gensim model** was trained using [Google's](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) publicly available pre-trained word embeddings."
+)
+
+st.sidebar.subheader("References")
+st.sidebar.markdown(
+    "Dataset Used: [Chopped: 10+ Years of Episode Data](https://www.kaggle.com/jeffreybraun/chopped-10-years-of-episode-data)"
+)
+st.sidebar.markdown("---")
+
+st.sidebar.markdown("**Created by David Weon**")
+st.sidebar.markdown(
+    "[Link to App Github](https://github.com/eunchanity/chopped_basket_generator)  \n"
+    "[Link to Blog Post](https://eunchanity.github.io/chopped/)"
+)
 
