@@ -29,7 +29,7 @@ st.beta_set_page_config(
     page_title="Chopped Basket Generator",
     page_icon=":hocho:",
     layout="centered",
-    initial_sidebar_state="collapsed",
+    initial_sidebar_state="expanded",
 )
 # streamlit outline
 st.title('"Chopped" Basket Generator')
