@@ -221,7 +221,7 @@ st.sidebar.markdown(
 st.sidebar.markdown("---")
 st.sidebar.subheader("Technical Details")
 st.sidebar.markdown(
-    "Word2vec was selected for the word embeddings and a gensim model was trained using [Google's](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) publicly available pre-trained word embeddings.  \n"
+    "A gensim model was trained through transfer learning, utilizing [Google's Word2vec](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit) for the word embeddings.  \n"
     "  \n"
     "_Read the in-depth analysis in my [blog post](https://eunchanity.github.io/chopped/)._"
 )
